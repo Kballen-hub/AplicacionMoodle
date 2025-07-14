@@ -28,7 +28,7 @@ define(["jquery"], function($) {
         showSlides: function(slideshow_num) {
             var slides_length = $(".slideshow-item").hide().length;
             if (slideshow_num > slides_length) {
-                slideshow_degrade.slideIndex = 1
+                slideshow_degrade.slideIndex = 1;
             }
             if (slideshow_num < 1) {
                 slideshow_degrade.slideIndex = slides_length;

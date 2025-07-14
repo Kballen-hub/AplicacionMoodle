@@ -233,7 +233,7 @@ degrade_AccessTool.prototype.keyboardRootEnable = function() {
         var headers = document.querySelectorAll('h1,h2,h3,h4,h5,h6,p,a,button,input,select,textarea');
         for (var i = 0; i < headers.length; i++) {
             var item = headers[i];
-            item.tabIndex = i + 1
+            item.tabIndex = i + 1;
         }
     }
     else {
@@ -251,7 +251,7 @@ degrade_AccessTool.prototype.fontsChange = function(event) {
 
     if (this.id === 'mic-toolbox-fonts-up') {
         if (counter >= 1.6) {
-            return
+            return;
         }
         var items = document.querySelectorAll('body,h1,h2,h3,h4,h5,h6,p,a,button,input,textarea,li,td,th,strong,span,blockquote,div');
         for (var i = 0; i < items.length; i++) {
